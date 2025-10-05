@@ -1,4 +1,4 @@
-[5:40 PM, 10/5/2025] .: {
+{
   "id": "smbm-movies",
   "version": "1.0.0",
   "name": "SMBM Movies",
@@ -36,3 +36,4 @@
     }
   ]
 }
+
