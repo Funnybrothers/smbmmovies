@@ -17,23 +17,17 @@
       "id": "attu-2017",
       "name": "Attu (2017)",
       "type": "movie",
-      "poster": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club/Attu%20poster.jpg",
-      "streamUrl": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv"
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/attu-et00055216-27-03-2017-11-46-05.jpg",
+      "streamUrl": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv/Attu%20%282017%29Tamil720pHDRipCCineClub.mkv.mkv"
     },
     {
-      "id": "kanthara-2025",
-      "name": "Kanthara (2025)",
+      "id": "sagaa-2019",
+      "name": "Sagaa (2019)",
       "type": "movie",
-      "poster": "https://archive.org/download/kanthara-2025-tamil/kanthara_poster.jpg",
-      "streamUrl": "https://archive.org/download/kanthara-2025-tamil/kanthara-2025.mkv"
-    },
-    {
-      "id": "maria-2025",
-      "name": "Maria (2025)",
-      "type": "movie",
-      "poster": "https://archive.org/download/maria-2025-tamil/maria_poster.jpg",
-      "streamUrl": "https://archive.org/download/maria-2025-tamil/maria-2025.mkv"
+      "poster": "https://m.media-amazon.com/images/S/pv-target-images/a0c8899deaf5b3cc4ac9414c2e25961851cd5b5c3b82e710837ded659df0d31c.jpg",
+      "streamUrl": "https://archive.org/download/sagaa-2019-tamil-1080p-ss-h.-264-dd-5.1-320-kbps-drawiz/Sagaa%20%282019%29%20Tamil%201080p%20SS%20H.264%20DD%205.1%28320Kbps%29%20_DRAWIZ_.mkv"
     }
   ]
 }
+
 
