@@ -1,46 +1,24 @@
 {
-  "id": "smbm.movies.addon",
+  "id": "smbm_movies",
   "version": "1.0.0",
   "name": "SMBM Movies",
-  "description": "A Stremio addon for Tamil movies",
-  "icon": "https://stremio.com/images/stremio-icon.png",
+  "description": "A simple Stremio addon for movies",
+  "resources": ["movie"],
   "types": ["movie"],
-  "resources": ["catalog", "stream"],
   "catalogs": [
     {
       "type": "movie",
-      "id": "smbm-movie-catalog",
-      "name": "SMBM Movie Catalog"
+      "id": "all_movies",
+      "name": "All Movies"
     }
   ],
-  "catalog": {
-    "metas": [
-      {
-        "id": "attu2017",
-        "type": "movie",
-        "name": "Attu (2017)",
-        "poster": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv/Attu%20%282017%29Tamil720pHDRipCCineClub.mkv.mkv",
-        "stream": [
-          {
-            "title": "Attu (2017)",
-            "url": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv/Attu%20%282017%29Tamil720pHDRipCCineClub.mkv.mkv",
-            "type": "direct"
-          }
-        ]
-      },
-      {
-        "id": "imrendu2006",
-        "type": "movie",
-        "name": "IM Rendu (2006)",
-        "poster": "https://archive.org/download/im-rendu-2006-tamil-720p-hq-dvdrip-x-264-dd-5-1-1-4-gb-esubs/%40IM_Rendu_2006_Tamil_720p_HQ_DVDRip_x264_DD_5_1_1_4GB_ESubs.mkv",
-        "stream": [
-          {
-            "title": "IM Rendu (2006)",
-            "url": "https://archive.org/download/im-rendu-2006-tamil-720p-hq-dvdrip-x-264-dd-5-1-1-4-gb-esubs/%40IM_Rendu_2006_Tamil_720p_HQ_DVDRip_x264_DD_5_1_1_4GB_ESubs.mkv",
-            "type": "direct"
-          }
-        ]
-      }
-    ]
-  }
+  "streams": [
+    {
+      "name": "Attu (2017)",
+      "type": "movie",
+      "poster": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club/Attu-poster.jpg",
+      "id": "attu-2017",
+      "stream_link": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv"
+    }
+  ]
 }
