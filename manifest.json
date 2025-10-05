@@ -2,25 +2,32 @@
   "id": "smbm_movies",
   "version": "1.0.0",
   "name": "SMBM Movies",
-  "description": "A simple Stremio addon for movies",
-  "resources": ["movie"],
+  "description": "My movie add-on",
+  "resources": ["stream"],
   "types": ["movie"],
   "catalogs": [
     {
       "type": "movie",
-      "id": "all_movies",
-      "name": "All Movies"
+      "id": "smbm_movies",
+      "name": "Smbm Movies"
     }
   ],
   "streams": [
     {
       "name": "Attu",
       "type": "movie",
-      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/attu-et00055216-27-03-2017-11-46-05.jpg",
-      "id": "attu",
-      "stream_link": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv"
+      "id": "attu-2017",
+      "stream": {
+        "title": "Attu (2017)",
+        "infoHash": "",
+        "url":
+"https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv",
+        "poster":
+"https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/attu-et00055216-27-03-2017-11-46-05.jpg",
     }
-  ]
+   }
+ ]
 }
+
 
 
