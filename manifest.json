@@ -1,26 +1,38 @@
-{
-  "id": "smbm_movies",
+[5:40 PM, 10/5/2025] .: {
+  "id": "smbm-movies",
   "version": "1.0.0",
   "name": "SMBM Movies",
-  "description": "My movie add-on",
-  "resources": ["stream"],
-  "types": ["movie"],
+  "description": "Tamil Movies Addon for Stremio",
   "catalogs": [
     {
       "type": "movie",
-      "id": "smbm_movies",
-      "name": "Smbm Movies"
+      "id": "movies"
     }
   ],
+  "resources": ["stream"],
+  "types": ["movie"],
+  "idPrefixes": [""],
   "streams": [
     {
-      "name": "Attu",
-      "type": "movie",
       "id": "attu-2017",
-      "stream": {
-        "title": "Attu (2017)",
-        "infoHash": "",
-        "url": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv",
-        "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/attu-et00055216-27-03-2017-11-46-05.jpg",
+      "name": "Attu (2017)",
+      "type": "movie",
+      "poster": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club/Attu%20poster.jpg",
+      "streamUrl": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv"
+    },
+    {
+      "id": "kanthara-2025",
+      "name": "Kanthara (2025)",
+      "type": "movie",
+      "poster": "https://archive.org/download/kanthara-2025-tamil/kanthara_poster.jpg",
+      "streamUrl": "https://archive.org/download/kanthara-2025-tamil/kanthara-2025.mkv"
+    },
+    {
+      "id": "maria-2025",
+      "name": "Maria (2025)",
+      "type": "movie",
+      "poster": "https://archive.org/download/maria-2025-tamil/maria_poster.jpg",
+      "streamUrl": "https://archive.org/download/maria-2025-tamil/maria-2025.mkv"
     }
-    }
+  ]
+}
