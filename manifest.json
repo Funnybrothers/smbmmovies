@@ -8,17 +8,18 @@
   "catalogs": [
     {
       "type": "movie",
-      "id": "all_movies",
-      "name": "All Movies"
+      "id": "smbm_movies",
+      "name": "Smbm Movies"
     }
   ],
   "streams": [
     {
-      "name": "Attu (2017)",
+      "name": "Attu",
       "type": "movie",
-      "poster": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club/Attu-poster.jpg",
-      "id": "attu-2017",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/attu-et00055216-27-03-2017-11-46-05.jpg",
+      "id": "attu",
       "stream_link": "https://archive.org/download/attu-2017-tamil-720p-hdrip-ccine-club.mkv"
     }
   ]
 }
+
