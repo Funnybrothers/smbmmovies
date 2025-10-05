@@ -8,8 +8,8 @@
   "catalogs": [
     {
       "type": "movie",
-      "id": "smbm_movies",
-      "name": "Smbm Movies"
+      "id": "all_movies",
+      "name": "All Movies"
     }
   ],
   "streams": [
@@ -22,4 +22,5 @@
     }
   ]
 }
+
 
